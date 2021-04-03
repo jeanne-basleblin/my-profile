@@ -1,0 +1,96 @@
+ body {
+ 	background: lavender ;
+ 	color: rgb(80, 80, 80); 
+ 	font-size: 22px; 
+ 	line-height: 1.2;
+ 	font-weight: 300;
+ 	font-family: 'Merriweather', serif;;
+ }
+
+ h1  {
+ 	color: black ; 
+ 	font-family:'Kiwi Maru', serif;
+
+
+ 	 }
+
+ h2  {
+ 	color: rgb(70,70,70) ; 
+ 	font-family: 'Kiwi Maru', serif;
+
+
+ 	 }
+a  {
+ 	color: cadetblue; ; 
+ 	font-weight: bold;
+ 	font-family:'Kiwi Maru', serif;
+ 	font-size: 18px
+
+
+ 	 }
+
+ a:hover {
+ 	color: black;  ; 
+ 	 }
+
+#logo {
+	border: 5px solid black;
+	}
+#logo {
+	width: 150px
+	}
+
+
+.container {
+	width: 800px
+	margin: 25px auto;
+	}
+
+
+.card-blue {
+	text-align: center;
+	}
+
+.img-circle {
+	border-radius: 10%
+	}
+
+.btn-purple{
+	background-color: cadetblue ; 
+	color: white;
+	padding: 10px 20px;
+	border-radius: 30px; 
+	}
+.list-inline{
+	list-style: none;
+	padding-left: 0px
+	}
+
+.list-inline li {
+	display: inline-block;
+	font-size: 10px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px)   { 
+  	.container {
+  		width: 800px
+	}	
+}	
+@media (max-width: 500px)   { 
+  	.container {
+  		width: 350px
+	}	
+}	
